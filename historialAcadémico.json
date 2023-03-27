@@ -1,0 +1,650 @@
+[
+  {
+    "cuatrimestre": "Primer Cuat. 2023",
+    "materias": [
+      {
+        "código": "72.32",
+        "nombre": "Diseño y Procesamiento de Documentos XML",
+        "comisión": "S",
+        "créditos": "3",
+        "notaCursada": "Cursando",
+        "finales": []
+      },
+      {
+        "código": "72.33",
+        "nombre": "Programación Orientada a Objetos",
+        "comisión": "S",
+        "créditos": "6",
+        "notaCursada": "Cursando",
+        "finales": []
+      },
+      {
+        "código": "72.74",
+        "nombre": "Visualización de Información",
+        "comisión": "S",
+        "créditos": "3",
+        "notaCursada": "Cursando",
+        "finales": []
+      },
+      {
+        "código": "93.35",
+        "nombre": "Lógica Computacional",
+        "comisión": "B",
+        "créditos": "6",
+        "notaCursada": "Cursando",
+        "finales": []
+      }
+    ]
+  },
+  {
+    "cuatrimestre": "Segundo Cuat. 2022",
+    "materias": [
+      {
+        "código": "72.31",
+        "nombre": "Programación Imperativa",
+        "comisión": "S",
+        "créditos": "9",
+        "notaCursada": 8,
+        "finales": [
+          {
+            "nota": 7,
+            "fecha": "14-12-2022"
+          }
+        ]
+      },
+      {
+        "código": "93.58",
+        "nombre": "Álgebra",
+        "comisión": "S2",
+        "créditos": "9",
+        "notaCursada": 8,
+        "finales": [
+          {
+            "nota": 8,
+            "fecha": "14-12-2022"
+          }
+        ]
+      },
+      {
+        "código": "93.59",
+        "nombre": "Matemática Discreta",
+        "comisión": "S",
+        "créditos": "6",
+        "notaCursada": 10,
+        "finales": [
+          {
+            "nota": 10,
+            "fecha": "19-12-2022"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cuatrimestre": "Primer Cuat. 2022",
+    "materias": [
+      {
+        "código": "11.15",
+        "nombre": "Organización Industrial",
+        "comisión": "C",
+        "créditos": "3",
+        "notaCursada": 6,
+        "finales": [
+          {
+            "nota": 6,
+            "fecha": "14-07-2022"
+          }
+        ]
+      },
+      {
+        "código": "31.26",
+        "nombre": "Mecánica de Fluidos",
+        "comisión": "M",
+        "créditos": "6",
+        "notaCursada": "Ausente",
+        "finales": []
+      },
+      {
+        "código": "31.35",
+        "nombre": "Resistencia de Materiales",
+        "comisión": "M",
+        "créditos": "6",
+        "notaCursada": "Ausente",
+        "finales": []
+      },
+      {
+        "código": "61.23",
+        "nombre": "Economía para Ingenieros",
+        "comisión": "S",
+        "créditos": "3",
+        "notaCursada": 5,
+        "finales": [
+          {
+            "nota": 2,
+            "fecha": "19-07-2022"
+          }
+        ]
+      },
+      {
+        "código": "61.31",
+        "nombre": "Derecho para Ingenieros",
+        "comisión": "CM",
+        "créditos": "3",
+        "notaCursada": 5,
+        "finales": [
+          {
+            "nota": 6,
+            "fecha": "08-07-2022"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cuatrimestre": "Primer Cuat. 2021",
+    "materias": [
+      {
+        "código": "23.06",
+        "nombre": "Electrónica General",
+        "comisión": "M",
+        "créditos": "6",
+        "notaCursada": 8,
+        "finales": []
+      },
+      {
+        "código": "31.35",
+        "nombre": "Resistencia de Materiales",
+        "comisión": "M",
+        "créditos": "6",
+        "notaCursada": "Ausente",
+        "finales": []
+      },
+      {
+        "código": "93.22",
+        "nombre": "Probabilidad y Estadística",
+        "comisión": "MP",
+        "créditos": "6",
+        "notaCursada": 6,
+        "finales": [
+          {
+            "nota": 6,
+            "fecha": "11-02-2022"
+          }
+        ]
+      },
+      {
+        "código": "93.66",
+        "nombre": "Métodos Numéricos",
+        "comisión": "M",
+        "créditos": "3",
+        "notaCursada": 7,
+        "finales": [
+          {
+            "nota": 5,
+            "fecha": "06-02-2023"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cuatrimestre": "Segundo Cuat. 2020",
+    "materias": [
+      {
+        "código": "12.83",
+        "nombre": "Seguridad Ocupacional y Ambiental",
+        "comisión": "BIO",
+        "créditos": "3",
+        "notaCursada": 10,
+        "finales": [
+          {
+            "nota": 10,
+            "fecha": "14-12-2020"
+          }
+        ]
+      },
+      {
+        "código": "21.08",
+        "nombre": "Electrotecnia",
+        "comisión": "MQ",
+        "créditos": "6",
+        "notaCursada": 8,
+        "finales": []
+      },
+      {
+        "código": "30.94",
+        "nombre": "Ensayo de Materiales (Laboratorio)",
+        "comisión": "M",
+        "créditos": "1",
+        "notaCursada": "Cursando",
+        "finales": []
+      },
+      {
+        "código": "30.97",
+        "nombre": "Ensayo de Materiales",
+        "comisión": "M",
+        "créditos": "2",
+        "notaCursada": 8,
+        "finales": []
+      },
+      {
+        "código": "31.21",
+        "nombre": "Termodinámica",
+        "comisión": "MPE",
+        "créditos": "6",
+        "notaCursada": 6,
+        "finales": []
+      },
+      {
+        "código": "93.38",
+        "nombre": "Matemática V",
+        "comisión": "M",
+        "créditos": "3",
+        "notaCursada": 9,
+        "finales": [
+          {
+            "nota": 3,
+            "fecha": "18-02-2022"
+          },
+          {
+            "nota": 9,
+            "fecha": "16-05-2022"
+          }
+        ]
+      },
+      {
+        "código": "93.44",
+        "nombre": "Física IV",
+        "comisión": "MN",
+        "créditos": "6",
+        "notaCursada": 5,
+        "finales": []
+      }
+    ]
+  },
+  {
+    "cuatrimestre": "Primer Cuat. 2020",
+    "materias": [
+      {
+        "código": "94.51",
+        "nombre": "Inglés I",
+        "créditos": "0",
+        "notaCursada": null,
+        "finales": [
+          {
+            "nota": "Aprobado",
+            "fecha": "31-03-2020"
+          }
+        ]
+      },
+      {
+        "código": "94.52",
+        "nombre": "Inglés II",
+        "créditos": "0",
+        "notaCursada": null,
+        "finales": [
+          {
+            "nota": "Aprobado",
+            "fecha": "31-03-2020"
+          }
+        ]
+      },
+      {
+        "código": "31.34",
+        "nombre": "Estática",
+        "comisión": "M",
+        "créditos": "6",
+        "notaCursada": 6,
+        "finales": [
+          {
+            "nota": 3,
+            "fecha": "09-12-2020"
+          },
+          {
+            "nota": 7,
+            "fecha": "03-02-2021"
+          }
+        ]
+      },
+      {
+        "código": "93.43",
+        "nombre": "Física III",
+        "comisión": "Q",
+        "créditos": "6",
+        "notaCursada": 7,
+        "finales": [
+          {
+            "nota": 2,
+            "fecha": "21-12-2020"
+          },
+          {
+            "nota": 7,
+            "fecha": "08-02-2021"
+          }
+        ]
+      },
+      {
+        "código": "93.51",
+        "nombre": "Mecánica General",
+        "comisión": "Q",
+        "créditos": "6",
+        "notaCursada": 6,
+        "finales": [
+          {
+            "nota": 2,
+            "fecha": "23-02-2021"
+          },
+          {
+            "nota": 5,
+            "fecha": "20-12-2021"
+          }
+        ]
+      },
+      {
+        "código": "93.65",
+        "nombre": "Matemática IV",
+        "comisión": "Q",
+        "créditos": "6",
+        "notaCursada": 7,
+        "finales": [
+          {
+            "nota": 3,
+            "fecha": "21-07-2020"
+          },
+          {
+            "nota": 3,
+            "fecha": "04-12-2020"
+          },
+          {
+            "nota": 8,
+            "fecha": "17-02-2021"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cuatrimestre": "Segundo Cuat. 2019",
+    "materias": [
+      {
+        "código": "30.33",
+        "nombre": "Diseño Mecánico",
+        "comisión": "M",
+        "créditos": "5",
+        "notaCursada": 9,
+        "finales": [
+          {
+            "nota": 8,
+            "fecha": "05-12-2019"
+          }
+        ]
+      },
+      {
+        "código": "30.34",
+        "nombre": "Diseño Mecánico",
+        "comisión": "M1",
+        "créditos": "3",
+        "notaCursada": 6,
+        "finales": [
+          {
+            "nota": 7,
+            "fecha": "12-02-2020"
+          }
+        ]
+      },
+      {
+        "código": "71.57",
+        "nombre": "Introducción a la Programación",
+        "comisión": "MN",
+        "créditos": "6",
+        "notaCursada": 9,
+        "finales": [
+          {
+            "nota": 2,
+            "fecha": "19-12-2019"
+          },
+          {
+            "nota": 9,
+            "fecha": "06-02-2020"
+          }
+        ]
+      },
+      {
+        "código": "93.03",
+        "nombre": "Matemática III",
+        "comisión": "D",
+        "créditos": "6",
+        "notaCursada": 6,
+        "finales": [
+          {
+            "nota": 7,
+            "fecha": "13-12-2019"
+          }
+        ]
+      },
+      {
+        "código": "93.42",
+        "nombre": "Física II",
+        "comisión": "A",
+        "créditos": "6",
+        "notaCursada": 8,
+        "finales": [
+          {
+            "nota": 6,
+            "fecha": "16-12-2019"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cuatrimestre": "Primer Cuat. 2019",
+    "materias": [
+      {
+        "código": "12.43",
+        "nombre": "Química II",
+        "comisión": "M",
+        "créditos": "5",
+        "notaCursada": 8,
+        "finales": [
+          {
+            "nota": 8,
+            "fecha": "15-07-2019"
+          }
+        ]
+      },
+      {
+        "código": "12.44",
+        "nombre": "Materiales Poliméricos",
+        "comisión": "M",
+        "créditos": "2",
+        "notaCursada": 7,
+        "finales": [
+          {
+            "nota": 7,
+            "fecha": "15-07-2019"
+          }
+        ]
+      },
+      {
+        "código": "71.55",
+        "nombre": "Informática General",
+        "comisión": "F",
+        "créditos": "3",
+        "notaCursada": 10,
+        "finales": [
+          {
+            "nota": 10,
+            "fecha": "19-07-2019"
+          }
+        ]
+      },
+      {
+        "código": "93.02",
+        "nombre": "Matemática II",
+        "comisión": "D",
+        "créditos": "6",
+        "notaCursada": 6,
+        "finales": [
+          {
+            "nota": 6,
+            "fecha": "11-07-2019"
+          }
+        ]
+      },
+      {
+        "código": "93.41",
+        "nombre": "Física I",
+        "comisión": "D",
+        "créditos": "6",
+        "notaCursada": 8,
+        "finales": [
+          {
+            "nota": 8,
+            "fecha": "04-07-2019"
+          }
+        ]
+      },
+      {
+        "código": "94.24",
+        "nombre": "Metodología del Aprendizaje",
+        "comisión": "F",
+        "créditos": "3",
+        "notaCursada": 8,
+        "finales": [
+          {
+            "nota": 8,
+            "fecha": "17-07-2019"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cuatrimestre": "Segundo Cuat. 2018",
+    "materias": [
+      {
+        "código": "12.01",
+        "nombre": "Química I",
+        "comisión": "H",
+        "créditos": "6",
+        "notaCursada": 7,
+        "finales": [
+          {
+            "nota": 8,
+            "fecha": "17-12-2018"
+          }
+        ]
+      },
+      {
+        "código": "31.08",
+        "nombre": "Sistemas de Representación",
+        "comisión": "H",
+        "créditos": "3",
+        "notaCursada": 10,
+        "finales": [
+          {
+            "nota": 10,
+            "fecha": "04-12-2018"
+          }
+        ]
+      },
+      {
+        "código": "93.17",
+        "nombre": "Matemática I",
+        "comisión": "H",
+        "créditos": "6",
+        "notaCursada": 7,
+        "finales": [
+          {
+            "nota": 7,
+            "fecha": "06-12-2018"
+          }
+        ]
+      },
+      {
+        "código": "93.18",
+        "nombre": "Álgebra Lineal",
+        "comisión": "H",
+        "créditos": "6",
+        "notaCursada": 7,
+        "finales": [
+          {
+            "nota": 8,
+            "fecha": "12-12-2018"
+          }
+        ]
+      },
+      {
+        "código": "94.21",
+        "nombre": "Formación General I",
+        "comisión": "H",
+        "créditos": "3",
+        "notaCursada": 7,
+        "finales": [
+          {
+            "nota": 7,
+            "fecha": "21-12-2018"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "cuatrimestre": "Primer Cuat. 2018",
+    "materias": [
+      {
+        "código": "12.50",
+        "nombre": "Química Ingreso (Cuatrimestral)",
+        "comisión": "IPC-F Turno Mañana",
+        "créditos": "5",
+        "notaCursada": "Aprobado",
+        "finales": [
+          {
+            "nota": 8,
+            "fecha": "02-07-2018"
+          }
+        ]
+      },
+      {
+        "código": "93.80",
+        "nombre": "Matemática Ingreso (Cuatrimestral)",
+        "comisión": "IPC-F Turno Mañana",
+        "créditos": "11",
+        "notaCursada": "Aprobado",
+        "finales": [
+          {
+            "nota": 5,
+            "fecha": "10-07-2018"
+          }
+        ]
+      },
+      {
+        "código": "93.90",
+        "nombre": "Física Ingreso (Cuatrimestral)",
+        "comisión": "IPC-F Turno Mañana",
+        "créditos": "5",
+        "notaCursada": "Aprobado",
+        "finales": [
+          {
+            "nota": 9,
+            "fecha": "02-07-2018"
+          }
+        ]
+      },
+      {
+        "código": "99.05",
+        "nombre": "Comunicación para Ing. (Cuatrimestral)",
+        "comisión": "IPC-F Turno Mañana",
+        "créditos": "3",
+        "notaCursada": "Aprobado",
+        "finales": [
+          {
+            "nota": 7,
+            "fecha": "02-07-2018"
+          }
+        ]
+      }
+    ]
+  }
+]
