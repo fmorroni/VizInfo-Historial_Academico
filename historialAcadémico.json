@@ -7,7 +7,10 @@
         "nombre": "Diseño y Procesamiento de Documentos XML",
         "comisión": "S",
         "créditos": 3,
-        "notaCursada": "Cursando",
+        "cursada": {
+          "nota": null,
+          "estado": "Cursando"
+        },
         "finales": []
       },
       {
@@ -15,7 +18,10 @@
         "nombre": "Programación Orientada a Objetos",
         "comisión": "S",
         "créditos": 6,
-        "notaCursada": "Cursando",
+        "cursada": {
+          "nota": null,
+          "estado": "Cursando"
+        },
         "finales": []
       },
       {
@@ -23,7 +29,10 @@
         "nombre": "Visualización de Información",
         "comisión": "S",
         "créditos": 3,
-        "notaCursada": "Cursando",
+        "cursada": {
+          "nota": null,
+          "estado": "Cursando"
+        },
         "finales": []
       },
       {
@@ -31,7 +40,10 @@
         "nombre": "Lógica Computacional",
         "comisión": "B",
         "créditos": 6,
-        "notaCursada": "Cursando",
+        "cursada": {
+          "nota": null,
+          "estado": "Cursando"
+        },
         "finales": []
       }
     ]
@@ -44,11 +56,15 @@
         "nombre": "Programación Imperativa",
         "comisión": "S",
         "créditos": 9,
-        "notaCursada": 8,
+        "cursada": {
+          "nota": 8,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 7,
-            "fecha": "14-12-2022"
+            "estado": "Aprobado",
+            "fecha": "2022-12-14"
           }
         ]
       },
@@ -57,11 +73,15 @@
         "nombre": "Álgebra",
         "comisión": "S2",
         "créditos": 9,
-        "notaCursada": 8,
+        "cursada": {
+          "nota": 8,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 8,
-            "fecha": "14-12-2022"
+            "estado": "Aprobado",
+            "fecha": "2022-12-14"
           }
         ]
       },
@@ -70,11 +90,15 @@
         "nombre": "Matemática Discreta",
         "comisión": "S",
         "créditos": 6,
-        "notaCursada": 10,
+        "cursada": {
+          "nota": 10,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 10,
-            "fecha": "19-12-2022"
+            "estado": "Aprobado",
+            "fecha": "2022-12-19"
           }
         ]
       }
@@ -88,11 +112,15 @@
         "nombre": "Organización Industrial",
         "comisión": "C",
         "créditos": 3,
-        "notaCursada": 6,
+        "cursada": {
+          "nota": 6,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 6,
-            "fecha": "14-07-2022"
+            "estado": "Aprobado",
+            "fecha": "2022-07-14"
           }
         ]
       },
@@ -101,7 +129,10 @@
         "nombre": "Mecánica de Fluidos",
         "comisión": "M",
         "créditos": 6,
-        "notaCursada": "Ausente",
+        "cursada": {
+          "nota": null,
+          "estado": "Ausente"
+        },
         "finales": []
       },
       {
@@ -109,7 +140,10 @@
         "nombre": "Resistencia de Materiales",
         "comisión": "M",
         "créditos": 6,
-        "notaCursada": "Ausente",
+        "cursada": {
+          "nota": null,
+          "estado": "Ausente"
+        },
         "finales": []
       },
       {
@@ -117,11 +151,15 @@
         "nombre": "Economía para Ingenieros",
         "comisión": "S",
         "créditos": 3,
-        "notaCursada": 5,
+        "cursada": {
+          "nota": 5,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 2,
-            "fecha": "19-07-2022"
+            "estado": "Desaprobado",
+            "fecha": "2022-07-19"
           }
         ]
       },
@@ -130,11 +168,15 @@
         "nombre": "Derecho para Ingenieros",
         "comisión": "CM",
         "créditos": 3,
-        "notaCursada": 5,
+        "cursada": {
+          "nota": 5,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 6,
-            "fecha": "08-07-2022"
+            "estado": "Aprobado",
+            "fecha": "2022-07-08"
           }
         ]
       }
@@ -148,7 +190,10 @@
         "nombre": "Electrónica General",
         "comisión": "M",
         "créditos": 6,
-        "notaCursada": 8,
+        "cursada": {
+          "nota": 8,
+          "estado": "Aprobado"
+        },
         "finales": []
       },
       {
@@ -156,7 +201,10 @@
         "nombre": "Resistencia de Materiales",
         "comisión": "M",
         "créditos": 6,
-        "notaCursada": "Ausente",
+        "cursada": {
+          "nota": null,
+          "estado": "Ausente"
+        },
         "finales": []
       },
       {
@@ -164,11 +212,15 @@
         "nombre": "Probabilidad y Estadística",
         "comisión": "MP",
         "créditos": 6,
-        "notaCursada": 6,
+        "cursada": {
+          "nota": 6,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 6,
-            "fecha": "11-02-2022"
+            "estado": "Aprobado",
+            "fecha": "2022-02-11"
           }
         ]
       },
@@ -177,11 +229,15 @@
         "nombre": "Métodos Numéricos",
         "comisión": "M",
         "créditos": 3,
-        "notaCursada": 7,
+        "cursada": {
+          "nota": 7,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 5,
-            "fecha": "06-02-2023"
+            "estado": "Aprobado",
+            "fecha": "2023-02-06"
           }
         ]
       }
@@ -195,11 +251,15 @@
         "nombre": "Seguridad Ocupacional y Ambiental",
         "comisión": "BIO",
         "créditos": 3,
-        "notaCursada": 10,
+        "cursada": {
+          "nota": 10,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 10,
-            "fecha": "14-12-2020"
+            "estado": "Aprobado",
+            "fecha": "2020-12-14"
           }
         ]
       },
@@ -208,7 +268,10 @@
         "nombre": "Electrotecnia",
         "comisión": "MQ",
         "créditos": 6,
-        "notaCursada": 8,
+        "cursada": {
+          "nota": 8,
+          "estado": "Aprobado"
+        },
         "finales": []
       },
       {
@@ -216,7 +279,10 @@
         "nombre": "Ensayo de Materiales (Laboratorio)",
         "comisión": "M",
         "créditos": 1,
-        "notaCursada": "Cursando",
+        "cursada": {
+          "nota": null,
+          "estado": "Cursando"
+        },
         "finales": []
       },
       {
@@ -224,7 +290,10 @@
         "nombre": "Ensayo de Materiales",
         "comisión": "M",
         "créditos": 2,
-        "notaCursada": 8,
+        "cursada": {
+          "nota": 8,
+          "estado": "Aprobado"
+        },
         "finales": []
       },
       {
@@ -232,7 +301,10 @@
         "nombre": "Termodinámica",
         "comisión": "MPE",
         "créditos": 6,
-        "notaCursada": 6,
+        "cursada": {
+          "nota": 6,
+          "estado": "Aprobado"
+        },
         "finales": []
       },
       {
@@ -240,15 +312,20 @@
         "nombre": "Matemática V",
         "comisión": "M",
         "créditos": 3,
-        "notaCursada": 9,
+        "cursada": {
+          "nota": 9,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 3,
-            "fecha": "18-02-2022"
+            "estado": "Desaprobado",
+            "fecha": "2022-02-18"
           },
           {
             "nota": 9,
-            "fecha": "16-05-2022"
+            "estado": "Aprobado",
+            "fecha": "2022-05-16"
           }
         ]
       },
@@ -257,7 +334,10 @@
         "nombre": "Física IV",
         "comisión": "MN",
         "créditos": 6,
-        "notaCursada": 5,
+        "cursada": {
+          "nota": 5,
+          "estado": "Aprobado"
+        },
         "finales": []
       }
     ]
@@ -269,11 +349,15 @@
         "código": "94.51",
         "nombre": "Inglés I",
         "créditos": 0,
-        "notaCursada": null,
+        "cursada": {
+          "nota": null,
+          "estado": ""
+        },
         "finales": [
           {
-            "nota": "Aprobado",
-            "fecha": "31-03-2020"
+            "nota": null,
+            "estado": "Aprobado",
+            "fecha": "2020-03-31"
           }
         ]
       },
@@ -281,11 +365,15 @@
         "código": "94.52",
         "nombre": "Inglés II",
         "créditos": 0,
-        "notaCursada": null,
+        "cursada": {
+          "nota": null,
+          "estado": ""
+        },
         "finales": [
           {
-            "nota": "Aprobado",
-            "fecha": "31-03-2020"
+            "nota": null,
+            "estado": "Aprobado",
+            "fecha": "2020-03-31"
           }
         ]
       },
@@ -294,15 +382,20 @@
         "nombre": "Estática",
         "comisión": "M",
         "créditos": 6,
-        "notaCursada": 6,
+        "cursada": {
+          "nota": 6,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 3,
-            "fecha": "09-12-2020"
+            "estado": "Desaprobado",
+            "fecha": "2020-12-09"
           },
           {
             "nota": 7,
-            "fecha": "03-02-2021"
+            "estado": "Aprobado",
+            "fecha": "2021-02-03"
           }
         ]
       },
@@ -311,15 +404,20 @@
         "nombre": "Física III",
         "comisión": "Q",
         "créditos": 6,
-        "notaCursada": 7,
+        "cursada": {
+          "nota": 7,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 2,
-            "fecha": "21-12-2020"
+            "estado": "Desaprobado",
+            "fecha": "2020-12-21"
           },
           {
             "nota": 7,
-            "fecha": "08-02-2021"
+            "estado": "Aprobado",
+            "fecha": "2021-02-08"
           }
         ]
       },
@@ -328,15 +426,20 @@
         "nombre": "Mecánica General",
         "comisión": "Q",
         "créditos": 6,
-        "notaCursada": 6,
+        "cursada": {
+          "nota": 6,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 2,
-            "fecha": "23-02-2021"
+            "estado": "Desaprobado",
+            "fecha": "2021-02-23"
           },
           {
             "nota": 5,
-            "fecha": "20-12-2021"
+            "estado": "Aprobado",
+            "fecha": "2021-12-20"
           }
         ]
       },
@@ -345,19 +448,25 @@
         "nombre": "Matemática IV",
         "comisión": "Q",
         "créditos": 6,
-        "notaCursada": 7,
+        "cursada": {
+          "nota": 7,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 3,
-            "fecha": "21-07-2020"
+            "estado": "Desaprobado",
+            "fecha": "2020-07-21"
           },
           {
             "nota": 3,
-            "fecha": "04-12-2020"
+            "estado": "Desaprobado",
+            "fecha": "2020-12-04"
           },
           {
             "nota": 8,
-            "fecha": "17-02-2021"
+            "estado": "Aprobado",
+            "fecha": "2021-02-17"
           }
         ]
       }
@@ -371,11 +480,15 @@
         "nombre": "Diseño Mecánico",
         "comisión": "M",
         "créditos": 5,
-        "notaCursada": 9,
+        "cursada": {
+          "nota": 9,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 8,
-            "fecha": "05-12-2019"
+            "estado": "Aprobado",
+            "fecha": "2019-12-05"
           }
         ]
       },
@@ -384,11 +497,15 @@
         "nombre": "Diseño Mecánico",
         "comisión": "M1",
         "créditos": 3,
-        "notaCursada": 6,
+        "cursada": {
+          "nota": 6,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 7,
-            "fecha": "12-02-2020"
+            "estado": "Aprobado",
+            "fecha": "2020-02-12"
           }
         ]
       },
@@ -397,15 +514,20 @@
         "nombre": "Introducción a la Programación",
         "comisión": "MN",
         "créditos": 6,
-        "notaCursada": 9,
+        "cursada": {
+          "nota": 9,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 2,
-            "fecha": "19-12-2019"
+            "estado": "Desaprobado",
+            "fecha": "2019-12-19"
           },
           {
             "nota": 9,
-            "fecha": "06-02-2020"
+            "estado": "Aprobado",
+            "fecha": "2020-02-06"
           }
         ]
       },
@@ -414,11 +536,15 @@
         "nombre": "Matemática III",
         "comisión": "D",
         "créditos": 6,
-        "notaCursada": 6,
+        "cursada": {
+          "nota": 6,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 7,
-            "fecha": "13-12-2019"
+            "estado": "Aprobado",
+            "fecha": "2019-12-13"
           }
         ]
       },
@@ -427,11 +553,15 @@
         "nombre": "Física II",
         "comisión": "A",
         "créditos": 6,
-        "notaCursada": 8,
+        "cursada": {
+          "nota": 8,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 6,
-            "fecha": "16-12-2019"
+            "estado": "Aprobado",
+            "fecha": "2019-12-16"
           }
         ]
       }
@@ -445,11 +575,15 @@
         "nombre": "Química II",
         "comisión": "M",
         "créditos": 5,
-        "notaCursada": 8,
+        "cursada": {
+          "nota": 8,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 8,
-            "fecha": "15-07-2019"
+            "estado": "Aprobado",
+            "fecha": "2019-07-15"
           }
         ]
       },
@@ -458,11 +592,15 @@
         "nombre": "Materiales Poliméricos",
         "comisión": "M",
         "créditos": 2,
-        "notaCursada": 7,
+        "cursada": {
+          "nota": 7,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 7,
-            "fecha": "15-07-2019"
+            "estado": "Aprobado",
+            "fecha": "2019-07-15"
           }
         ]
       },
@@ -471,11 +609,15 @@
         "nombre": "Informática General",
         "comisión": "F",
         "créditos": 3,
-        "notaCursada": 10,
+        "cursada": {
+          "nota": 10,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 10,
-            "fecha": "19-07-2019"
+            "estado": "Aprobado",
+            "fecha": "2019-07-19"
           }
         ]
       },
@@ -484,11 +626,15 @@
         "nombre": "Matemática II",
         "comisión": "D",
         "créditos": 6,
-        "notaCursada": 6,
+        "cursada": {
+          "nota": 6,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 6,
-            "fecha": "11-07-2019"
+            "estado": "Aprobado",
+            "fecha": "2019-07-11"
           }
         ]
       },
@@ -497,11 +643,15 @@
         "nombre": "Física I",
         "comisión": "D",
         "créditos": 6,
-        "notaCursada": 8,
+        "cursada": {
+          "nota": 8,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 8,
-            "fecha": "04-07-2019"
+            "estado": "Aprobado",
+            "fecha": "2019-07-04"
           }
         ]
       },
@@ -510,11 +660,15 @@
         "nombre": "Metodología del Aprendizaje",
         "comisión": "F",
         "créditos": 3,
-        "notaCursada": 8,
+        "cursada": {
+          "nota": 8,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 8,
-            "fecha": "17-07-2019"
+            "estado": "Aprobado",
+            "fecha": "2019-07-17"
           }
         ]
       }
@@ -528,11 +682,15 @@
         "nombre": "Química I",
         "comisión": "H",
         "créditos": 6,
-        "notaCursada": 7,
+        "cursada": {
+          "nota": 7,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 8,
-            "fecha": "17-12-2018"
+            "estado": "Aprobado",
+            "fecha": "2018-12-17"
           }
         ]
       },
@@ -541,11 +699,15 @@
         "nombre": "Sistemas de Representación",
         "comisión": "H",
         "créditos": 3,
-        "notaCursada": 10,
+        "cursada": {
+          "nota": 10,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 10,
-            "fecha": "04-12-2018"
+            "estado": "Aprobado",
+            "fecha": "2018-12-04"
           }
         ]
       },
@@ -554,11 +716,15 @@
         "nombre": "Matemática I",
         "comisión": "H",
         "créditos": 6,
-        "notaCursada": 7,
+        "cursada": {
+          "nota": 7,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 7,
-            "fecha": "06-12-2018"
+            "estado": "Aprobado",
+            "fecha": "2018-12-06"
           }
         ]
       },
@@ -567,11 +733,15 @@
         "nombre": "Álgebra Lineal",
         "comisión": "H",
         "créditos": 6,
-        "notaCursada": 7,
+        "cursada": {
+          "nota": 7,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 8,
-            "fecha": "12-12-2018"
+            "estado": "Aprobado",
+            "fecha": "2018-12-12"
           }
         ]
       },
@@ -580,11 +750,15 @@
         "nombre": "Formación General I",
         "comisión": "H",
         "créditos": 3,
-        "notaCursada": 7,
+        "cursada": {
+          "nota": 7,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 7,
-            "fecha": "21-12-2018"
+            "estado": "Aprobado",
+            "fecha": "2018-12-21"
           }
         ]
       }
@@ -598,11 +772,15 @@
         "nombre": "Química Ingreso (Cuatrimestral)",
         "comisión": "IPC-F Turno Mañana",
         "créditos": 5,
-        "notaCursada": "Aprobado",
+        "cursada": {
+          "nota": null,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 8,
-            "fecha": "02-07-2018"
+            "estado": "Aprobado",
+            "fecha": "2018-07-02"
           }
         ]
       },
@@ -611,11 +789,15 @@
         "nombre": "Matemática Ingreso (Cuatrimestral)",
         "comisión": "IPC-F Turno Mañana",
         "créditos": 11,
-        "notaCursada": "Aprobado",
+        "cursada": {
+          "nota": null,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 5,
-            "fecha": "10-07-2018"
+            "estado": "Aprobado",
+            "fecha": "2018-07-10"
           }
         ]
       },
@@ -624,11 +806,15 @@
         "nombre": "Física Ingreso (Cuatrimestral)",
         "comisión": "IPC-F Turno Mañana",
         "créditos": 5,
-        "notaCursada": "Aprobado",
+        "cursada": {
+          "nota": null,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 9,
-            "fecha": "02-07-2018"
+            "estado": "Aprobado",
+            "fecha": "2018-07-02"
           }
         ]
       },
@@ -637,11 +823,15 @@
         "nombre": "Comunicación para Ing. (Cuatrimestral)",
         "comisión": "IPC-F Turno Mañana",
         "créditos": 3,
-        "notaCursada": "Aprobado",
+        "cursada": {
+          "nota": null,
+          "estado": "Aprobado"
+        },
         "finales": [
           {
             "nota": 7,
-            "fecha": "02-07-2018"
+            "estado": "Aprobado",
+            "fecha": "2018-07-02"
           }
         ]
       }
