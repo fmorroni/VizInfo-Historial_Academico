@@ -17,7 +17,7 @@ const historialAcadémico = Array.from(document.querySelectorAll('tbody')).map((
       código,
       nombre,
       comisión,
-      créditos,
+      créditos: parseFloat(créditos),
       notaCursada: parseFloat(notaCursada) || notaCursada || null,
       finales,
     })
