@@ -1,6 +1,7 @@
 [
   {
-    "cuatrimestre": "Primer Cuat. 2023",
+    "cuatrimestre": 1,
+    "año": 2023,
     "materias": [
       {
         "código": "72.32",
@@ -49,7 +50,8 @@
     ]
   },
   {
-    "cuatrimestre": "Segundo Cuat. 2022",
+    "cuatrimestre": 2,
+    "año": 2022,
     "materias": [
       {
         "código": "72.31",
@@ -105,7 +107,8 @@
     ]
   },
   {
-    "cuatrimestre": "Primer Cuat. 2022",
+    "cuatrimestre": 1,
+    "año": 2022,
     "materias": [
       {
         "código": "11.15",
@@ -183,7 +186,8 @@
     ]
   },
   {
-    "cuatrimestre": "Primer Cuat. 2021",
+    "cuatrimestre": 1,
+    "año": 2021,
     "materias": [
       {
         "código": "23.06",
@@ -244,7 +248,8 @@
     ]
   },
   {
-    "cuatrimestre": "Segundo Cuat. 2020",
+    "cuatrimestre": 2,
+    "año": 2020,
     "materias": [
       {
         "código": "12.83",
@@ -343,7 +348,8 @@
     ]
   },
   {
-    "cuatrimestre": "Primer Cuat. 2020",
+    "cuatrimestre": 1,
+    "año": 2020,
     "materias": [
       {
         "código": "94.51",
@@ -473,7 +479,8 @@
     ]
   },
   {
-    "cuatrimestre": "Segundo Cuat. 2019",
+    "cuatrimestre": 2,
+    "año": 2019,
     "materias": [
       {
         "código": "30.33",
@@ -568,7 +575,8 @@
     ]
   },
   {
-    "cuatrimestre": "Primer Cuat. 2019",
+    "cuatrimestre": 1,
+    "año": 2019,
     "materias": [
       {
         "código": "12.43",
@@ -675,7 +683,8 @@
     ]
   },
   {
-    "cuatrimestre": "Segundo Cuat. 2018",
+    "cuatrimestre": 2,
+    "año": 2018,
     "materias": [
       {
         "código": "12.01",
@@ -765,7 +774,8 @@
     ]
   },
   {
-    "cuatrimestre": "Primer Cuat. 2018",
+    "cuatrimestre": 1,
+    "año": 2018,
     "materias": [
       {
         "código": "12.50",
