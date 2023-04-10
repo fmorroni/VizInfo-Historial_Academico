@@ -10,8 +10,8 @@ código,fecha,nota,estado
 12.83,2020-12-14,10,Aprobado
 93.38,2022-02-18,3,Desaprobado
 93.38,2022-05-16,9,Aprobado
-94.51,2020-03-31,null,Aprobado
-94.52,2020-03-31,null,Aprobado
+94.51,2020-03-31,,Aprobado
+94.52,2020-03-31,,Aprobado
 31.34,2020-12-09,3,Desaprobado
 31.34,2021-02-03,7,Aprobado
 93.43,2020-12-21,2,Desaprobado

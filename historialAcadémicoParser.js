@@ -73,9 +73,9 @@ function generateCSVs() {
   historialAcadémico.forEach(({ cuatrimestre, año, materias }) => {
     materias.forEach(materia => {
       materiasArr.push(`${materia.código},${materia.nombre},${materia.créditos},${materia.comisión},${cuatrimestre},${año}`)
-      cursadasArr.push(`${materia.código},${materia.cursada.nota},${materia.cursada.estado}`)
+      cursadasArr.push(`${materia.código},${materia.cursada.nota || ''},${materia.cursada.estado}`)
       materia.finales.forEach(final => {
-        finalesArr.push(`${materia.código},${final.fecha},${final.nota},${final.estado}`)
+        finalesArr.push(`${materia.código},${final.fecha},${final.nota || ''},${final.estado}`)
       })
     })
   })
