@@ -15,9 +15,12 @@ const historialAcadémico = Array.from(document.querySelectorAll('tbody')).map((
       finales,
     })
   }
+  const año = parseInt(período[idx].match(/\d{4}/))
+  const cuatrimestre = /Primer/.test(período[idx]) ? 1 : 2
+  const fecha = fechaCuatrimestre(año, cuatrimestre)
   return {
-    cuatrimestre: /Primer/.test(período[idx]) ? 1 : 2,
-    año: parseInt(período[idx].match(/\d{4}/)),
+    cuatrimestre,
+    fecha,
     materias,
   }
 }
@@ -26,6 +29,14 @@ const historialAcadémico = Array.from(document.querySelectorAll('tbody')).map((
 function formatDate(date_ar) {
   const [_, day, month, year] = date_ar.match(/(\d{2}).(\d{2}).(\d{4})/) || []
   return day ? `${year}-${month}-${day}` : null
+}
+
+function fechaCuatrimestre(año, cuatri) {
+  if (cuatri === 1) {
+    return { inicio: año + "03-01", fin: año + "06-30" }
+  } else if (cuatri === 2) {
+    return { inicio: año + "08-01", fin: año + "11-30" }
+  }
 }
 
 function parseCursada(cursada) {
@@ -39,7 +50,10 @@ function parseCursada(cursada) {
 }
 
 function parseFinal(finalDiv) {
-  const [nota_estado, fecha] = Array.from(finalDiv.querySelectorAll('span')).map(span => span.textContent)
+  let [nota_estado, fecha] = Array.from(finalDiv.querySelectorAll('span')).map(span => span.textContent)
+
+  fecha = formatDate(fecha)
+
   const nota = parseFloat(nota_estado) || null
   let estado = ''
   if (!nota) estado = nota_estado
@@ -49,7 +63,7 @@ function parseFinal(finalDiv) {
   return {
     nota,
     estado,
-    fecha: formatDate(fecha),
+    fecha,
   }
 }
 
@@ -66,14 +80,14 @@ downloadJson.style.display = 'block'
 // document.body.replaceChildren(jsonNode, download)
 
 function generateCSVs() {
-  const materiasArr = ['código,nombre,créditos,comisión,cuatrimestre,año']
-  const cursadasArr = ['código,nota,estado']
+  const materiasArr = ['código,nombre,créditos']
+  const cursadasArr = ['código,comisión,cuatrimestre,fecha_inicio,fecha_fin,nota,estado']
   const finalesArr = ['código,fecha,nota,estado']
 
-  historialAcadémico.forEach(({ cuatrimestre, año, materias }) => {
+  historialAcadémico.forEach(({ cuatrimestre, fecha, materias }) => {
     materias.forEach(materia => {
-      materiasArr.push(`${materia.código},${materia.nombre},${materia.créditos},${materia.comisión},${cuatrimestre},${año}`)
-      cursadasArr.push(`${materia.código},${materia.cursada.nota || ''},${materia.cursada.estado}`)
+      materiasArr.push(`${materia.código},${materia.nombre},${materia.créditos}`)
+      cursadasArr.push(`${materia.código},${materia.comisión},${cuatrimestre},${fecha.inicio},${fecha.fin},${materia.cursada.nota || ''},${materia.cursada.estado}`)
       materia.finales.forEach(final => {
         finalesArr.push(`${materia.código},${final.fecha},${final.nota || ''},${final.estado}`)
       })

@@ -1,7 +1,10 @@
 [
   {
     "cuatrimestre": 1,
-    "año": 2023,
+    "fecha": {
+      "inicio": "202303-01",
+      "fin": "202306-30"
+    },
     "materias": [
       {
         "código": "72.32",
@@ -51,7 +54,10 @@
   },
   {
     "cuatrimestre": 2,
-    "año": 2022,
+    "fecha": {
+      "inicio": "202208-01",
+      "fin": "202211-30"
+    },
     "materias": [
       {
         "código": "72.31",
@@ -108,7 +114,10 @@
   },
   {
     "cuatrimestre": 1,
-    "año": 2022,
+    "fecha": {
+      "inicio": "202203-01",
+      "fin": "202206-30"
+    },
     "materias": [
       {
         "código": "11.15",
@@ -187,7 +196,10 @@
   },
   {
     "cuatrimestre": 1,
-    "año": 2021,
+    "fecha": {
+      "inicio": "202103-01",
+      "fin": "202106-30"
+    },
     "materias": [
       {
         "código": "23.06",
@@ -249,7 +261,10 @@
   },
   {
     "cuatrimestre": 2,
-    "año": 2020,
+    "fecha": {
+      "inicio": "202008-01",
+      "fin": "202011-30"
+    },
     "materias": [
       {
         "código": "12.83",
@@ -349,7 +364,10 @@
   },
   {
     "cuatrimestre": 1,
-    "año": 2020,
+    "fecha": {
+      "inicio": "202003-01",
+      "fin": "202006-30"
+    },
     "materias": [
       {
         "código": "94.51",
@@ -480,7 +498,10 @@
   },
   {
     "cuatrimestre": 2,
-    "año": 2019,
+    "fecha": {
+      "inicio": "201908-01",
+      "fin": "201911-30"
+    },
     "materias": [
       {
         "código": "30.33",
@@ -576,7 +597,10 @@
   },
   {
     "cuatrimestre": 1,
-    "año": 2019,
+    "fecha": {
+      "inicio": "201903-01",
+      "fin": "201906-30"
+    },
     "materias": [
       {
         "código": "12.43",
@@ -684,7 +708,10 @@
   },
   {
     "cuatrimestre": 2,
-    "año": 2018,
+    "fecha": {
+      "inicio": "201808-01",
+      "fin": "201811-30"
+    },
     "materias": [
       {
         "código": "12.01",
@@ -775,7 +802,10 @@
   },
   {
     "cuatrimestre": 1,
-    "año": 2018,
+    "fecha": {
+      "inicio": "201803-01",
+      "fin": "201806-30"
+    },
     "materias": [
       {
         "código": "12.50",

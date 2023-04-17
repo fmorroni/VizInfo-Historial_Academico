@@ -1,50 +1,50 @@
-código,nombre,créditos,comisión,cuatrimestre,año
-72.32,Diseño y Procesamiento de Documentos XML,3,S,1,2023
-72.33,Programación Orientada a Objetos,6,S,1,2023
-72.74,Visualización de Información,3,S,1,2023
-93.35,Lógica Computacional,6,B,1,2023
-72.31,Programación Imperativa,9,S,2,2022
-93.58,Álgebra,9,S2,2,2022
-93.59,Matemática Discreta,6,S,2,2022
-11.15,Organización Industrial,3,C,1,2022
-31.26,Mecánica de Fluidos,6,M,1,2022
-31.35,Resistencia de Materiales,6,M,1,2022
-61.23,Economía para Ingenieros,3,S,1,2022
-61.31,Derecho para Ingenieros,3,CM,1,2022
-23.06,Electrónica General,6,M,1,2021
-31.35,Resistencia de Materiales,6,M,1,2021
-93.22,Probabilidad y Estadística,6,MP,1,2021
-93.66,Métodos Numéricos,3,M,1,2021
-12.83,Seguridad Ocupacional y Ambiental,3,BIO,2,2020
-21.08,Electrotecnia,6,MQ,2,2020
-30.94,Ensayo de Materiales (Laboratorio),1,M,2,2020
-30.97,Ensayo de Materiales,2,M,2,2020
-31.21,Termodinámica,6,MPE,2,2020
-93.38,Matemática V,3,M,2,2020
-93.44,Física IV,6,MN,2,2020
-94.51,Inglés I,0,undefined,1,2020
-94.52,Inglés II,0,undefined,1,2020
-31.34,Estática,6,M,1,2020
-93.43,Física III,6,Q,1,2020
-93.51,Mecánica General,6,Q,1,2020
-93.65,Matemática IV,6,Q,1,2020
-30.33,Diseño Mecánico,5,M,2,2019
-30.34,Diseño Mecánico,3,M1,2,2019
-71.57,Introducción a la Programación,6,MN,2,2019
-93.03,Matemática III,6,D,2,2019
-93.42,Física II,6,A,2,2019
-12.43,Química II,5,M,1,2019
-12.44,Materiales Poliméricos,2,M,1,2019
-71.55,Informática General,3,F,1,2019
-93.02,Matemática II,6,D,1,2019
-93.41,Física I,6,D,1,2019
-94.24,Metodología del Aprendizaje,3,F,1,2019
-12.01,Química I,6,H,2,2018
-31.08,Sistemas de Representación,3,H,2,2018
-93.17,Matemática I,6,H,2,2018
-93.18,Álgebra Lineal,6,H,2,2018
-94.21,Formación General I,3,H,2,2018
-12.50,Química Ingreso (Cuatrimestral),5,IPC-F Turno Mañana,1,2018
-93.80,Matemática Ingreso (Cuatrimestral),11,IPC-F Turno Mañana,1,2018
-93.90,Física Ingreso (Cuatrimestral),5,IPC-F Turno Mañana,1,2018
-99.05,Comunicación para Ing. (Cuatrimestral),3,IPC-F Turno Mañana,1,2018
+código,nombre,créditos
+72.32,Diseño y Procesamiento de Documentos XML,3
+72.33,Programación Orientada a Objetos,6
+72.74,Visualización de Información,3
+93.35,Lógica Computacional,6
+72.31,Programación Imperativa,9
+93.58,Álgebra,9
+93.59,Matemática Discreta,6
+11.15,Organización Industrial,3
+31.26,Mecánica de Fluidos,6
+31.35,Resistencia de Materiales,6
+61.23,Economía para Ingenieros,3
+61.31,Derecho para Ingenieros,3
+23.06,Electrónica General,6
+31.35,Resistencia de Materiales,6
+93.22,Probabilidad y Estadística,6
+93.66,Métodos Numéricos,3
+12.83,Seguridad Ocupacional y Ambiental,3
+21.08,Electrotecnia,6
+30.94,Ensayo de Materiales (Laboratorio),1
+30.97,Ensayo de Materiales,2
+31.21,Termodinámica,6
+93.38,Matemática V,3
+93.44,Física IV,6
+94.51,Inglés I,0
+94.52,Inglés II,0
+31.34,Estática,6
+93.43,Física III,6
+93.51,Mecánica General,6
+93.65,Matemática IV,6
+30.33,Diseño Mecánico,5
+30.34,Diseño Mecánico,3
+71.57,Introducción a la Programación,6
+93.03,Matemática III,6
+93.42,Física II,6
+12.43,Química II,5
+12.44,Materiales Poliméricos,2
+71.55,Informática General,3
+93.02,Matemática II,6
+93.41,Física I,6
+94.24,Metodología del Aprendizaje,3
+12.01,Química I,6
+31.08,Sistemas de Representación,3
+93.17,Matemática I,6
+93.18,Álgebra Lineal,6
+94.21,Formación General I,3
+12.50,Química Ingreso (Cuatrimestral),5
+93.80,Matemática Ingreso (Cuatrimestral),11
+93.90,Física Ingreso (Cuatrimestral),5
+99.05,Comunicación para Ing. (Cuatrimestral),3
