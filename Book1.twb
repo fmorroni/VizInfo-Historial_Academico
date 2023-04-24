@@ -1,20 +1,23 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
 <!-- build 20231.23.0310.1044                               -->
-<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
     <CascadingFilters />
     <CustomReferenceLineTooltips />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
     <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
     <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
     <SetMembershipControl />
     <SheetIdentifierTracking />
     <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
+  <repository-location id='Book1_16822947463220' path='/workbooks' revision='1.0' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -29,7 +32,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='materias' name='textscan.0sqb9xs1wirad312jwh0d0etnlr0'>
-            <connection class='textscan' directory='C:/Users/Franco/Desktop/ITBA/ITBA/Visualización de la Información/VisInfo-Historial_Academico' filename='materias.csv' password='' server='' />
+            <connection class='textscan' directory='C:/Users/Franco/Desktop/ITBA/ITBA/Visualización de la Información/VisInfo-Historial_Academico' filename='materias.csv' password='' server='' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0sqb9xs1wirad312jwh0d0etnlr0' name='cursadas.csv' table='[cursadas#csv]' type='table'>
@@ -87,6 +90,7 @@
           <map key='[nota (finales.csv)]' value='[finales.csv].[nota]' />
           <map key='[nota]' value='[cursadas.csv].[nota]' />
         </cols>
+        <refresh increment-key='' incremental-updates='false' />
         <metadata-records>
           <metadata-record class='capability'>
             <remote-name />
@@ -410,51 +414,243 @@
           <field>[nombre]</field>
         </drill-path>
       </drill-paths>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_GB' class='hyper' dbname='C:/Users/Franco/Desktop/ITBA/ITBA/Visualización de la Información/VisInfo-Historial_Academico/materias+.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/24/2023 03:05:09 AM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='cursadas.csv_D889B0B03C0D4486BE99B12394E7837B' table='[Extract].[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+            <relation name='materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42' table='[Extract].[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42]' type='table' />
+            <relation name='cursadas.csv_D889B0B03C0D4486BE99B12394E7837B' table='[Extract].[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]' type='table' />
+            <relation name='finales.csv_455BDAB6787246CF9DBE166AD70E6A72' table='[Extract].[finales.csv_455BDAB6787246CF9DBE166AD70E6A72]' type='table' />
+          </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+          <cols>
+            <map key='[comisión]' value='[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B].[comisión]' />
+            <map key='[créditos]' value='[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42].[créditos]' />
+            <map key='[cuatrimestre]' value='[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B].[cuatrimestre]' />
+            <map key='[código (cursadas.csv)]' value='[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B].[código]' />
+            <map key='[código (finales.csv)]' value='[finales.csv_455BDAB6787246CF9DBE166AD70E6A72].[código]' />
+            <map key='[código]' value='[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42].[código]' />
+            <map key='[estado (finales.csv)]' value='[finales.csv_455BDAB6787246CF9DBE166AD70E6A72].[estado]' />
+            <map key='[estado]' value='[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B].[estado]' />
+            <map key='[fecha]' value='[finales.csv_455BDAB6787246CF9DBE166AD70E6A72].[fecha]' />
+            <map key='[fecha_fin]' value='[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B].[fecha_fin]' />
+            <map key='[fecha_inicio]' value='[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B].[fecha_inicio]' />
+            <map key='[nombre]' value='[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42].[nombre]' />
+            <map key='[nota (finales.csv)]' value='[finales.csv_455BDAB6787246CF9DBE166AD70E6A72].[nota]' />
+            <map key='[nota]' value='[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B].[nota]' />
+          </cols>
+          <refresh increment-key='' incremental-updates='false'>
+            <refresh-event add-from-file-path='materias+' increment-value='%null%' refresh-type='create' rows-inserted='141' timestamp-start='2023-04-24 03:05:06.528' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>código</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[código]</local-name>
+              <parent-name>[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42]</parent-name>
+              <remote-alias>código</remote-alias>
+              <ordinal>0</ordinal>
+              <family>materias.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nombre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[nombre]</local-name>
+              <parent-name>[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42]</parent-name>
+              <remote-alias>nombre</remote-alias>
+              <ordinal>1</ordinal>
+              <family>materias.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>47</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>créditos</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[créditos]</local-name>
+              <parent-name>[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42]</parent-name>
+              <remote-alias>créditos</remote-alias>
+              <ordinal>2</ordinal>
+              <family>materias.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>código</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[código (cursadas.csv)]</local-name>
+              <parent-name>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</parent-name>
+              <remote-alias>código</remote-alias>
+              <ordinal>3</ordinal>
+              <family>cursadas.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>48</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>comisión</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[comisión]</local-name>
+              <parent-name>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</parent-name>
+              <remote-alias>comisión</remote-alias>
+              <ordinal>4</ordinal>
+              <family>cursadas.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cuatrimestre</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[cuatrimestre]</local-name>
+              <parent-name>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</parent-name>
+              <remote-alias>cuatrimestre</remote-alias>
+              <ordinal>5</ordinal>
+              <family>cursadas.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fecha_inicio</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[fecha_inicio]</local-name>
+              <parent-name>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</parent-name>
+              <remote-alias>fecha_inicio</remote-alias>
+              <ordinal>6</ordinal>
+              <family>cursadas.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fecha_fin</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[fecha_fin]</local-name>
+              <parent-name>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</parent-name>
+              <remote-alias>fecha_fin</remote-alias>
+              <ordinal>7</ordinal>
+              <family>cursadas.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nota</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[nota]</local-name>
+              <parent-name>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</parent-name>
+              <remote-alias>nota</remote-alias>
+              <ordinal>8</ordinal>
+              <family>cursadas.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>estado</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[estado]</local-name>
+              <parent-name>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</parent-name>
+              <remote-alias>estado</remote-alias>
+              <ordinal>9</ordinal>
+              <family>cursadas.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>código</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[código (finales.csv)]</local-name>
+              <parent-name>[finales.csv_455BDAB6787246CF9DBE166AD70E6A72]</parent-name>
+              <remote-alias>código</remote-alias>
+              <ordinal>10</ordinal>
+              <family>finales.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[finales.csv_455BDAB6787246CF9DBE166AD70E6A72]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>fecha</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[fecha]</local-name>
+              <parent-name>[finales.csv_455BDAB6787246CF9DBE166AD70E6A72]</parent-name>
+              <remote-alias>fecha</remote-alias>
+              <ordinal>11</ordinal>
+              <family>finales.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>38</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[finales.csv_455BDAB6787246CF9DBE166AD70E6A72]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nota</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[nota (finales.csv)]</local-name>
+              <parent-name>[finales.csv_455BDAB6787246CF9DBE166AD70E6A72]</parent-name>
+              <remote-alias>nota</remote-alias>
+              <ordinal>12</ordinal>
+              <family>finales.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[finales.csv_455BDAB6787246CF9DBE166AD70E6A72]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>estado</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[estado (finales.csv)]</local-name>
+              <parent-name>[finales.csv_455BDAB6787246CF9DBE166AD70E6A72]</parent-name>
+              <remote-alias>estado</remote-alias>
+              <ordinal>13</ordinal>
+              <family>finales.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LES_RES' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[finales.csv_455BDAB6787246CF9DBE166AD70E6A72]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='49' show-structure='true' />
       <style>
         <style-rule element='mark'>
-          <encoding attr='color' field='[qr:fecha_inicio:ok]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>1</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>3</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[yr:fecha_inicio:ok]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>2018</bucket>
-            </map>
-            <map to='#59a14f'>
-              <bucket>2022</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>2021</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>2020</bucket>
-            </map>
-            <map to='#edc948'>
-              <bucket>2023</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>2019</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:estado:nk]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;Aprobado&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;Cursando&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>%null%</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;Ausente&quot;</bucket>
-            </map>
-          </encoding>
           <encoding attr='color' field='[attr:estado:nk]' type='palette'>
             <map to='#4e79a7'>
               <bucket>&quot;Aprobado&quot;</bucket>
@@ -527,55 +723,6 @@
             </map>
             <map to='#f28e2b'>
               <bucket>2018</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[mn:fecha:ok]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>%null%</bucket>
-            </map>
-            <map to='#4e79a7'>
-              <bucket>12</bucket>
-            </map>
-            <map to='#59a14f'>
-              <bucket>4</bucket>
-            </map>
-            <map to='#59a14f'>
-              <bucket>7</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>3</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>2</bucket>
-            </map>
-            <map to='#edc948'>
-              <bucket>5</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>1</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[__tableau_internal_object_id__].[cnt:finales.csv_455BDAB6787246CF9DBE166AD70E6A72:ok]' type='palette'>
-            <map to='#59a14f'>
-              <bucket>1</bucket>
-            </map>
-            <map to='#b07aa1'>
-              <bucket>6</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>3</bucket>
-            </map>
-            <map to='#edc948'>
-              <bucket>2</bucket>
-            </map>
-            <map to='#edc948'>
-              <bucket>5</bucket>
-            </map>
-            <map to='#ff9da7'>
-              <bucket>0</bucket>
-            </map>
-            <map to='#ff9da7'>
-              <bucket>9</bucket>
             </map>
           </encoding>
           <encoding attr='color' field='[none:código:nk]' type='palette'>
@@ -884,6 +1031,97 @@
               <bucket>&quot;93.59&quot;</bucket>
             </map>
           </encoding>
+          <encoding attr='color' field='[__tableau_internal_object_id__].[cnt:finales.csv_455BDAB6787246CF9DBE166AD70E6A72:ok]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>9</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[yr:fecha_inicio:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>2018</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>2022</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>2021</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2020</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>2023</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2019</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:estado:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aprobado&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Cursando&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ausente&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[qr:fecha_inicio:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>3</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[mn:fecha:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>1</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[usr:Calculation_388998436579438633:nk]' type='palette'>
             <map to='#59a14f'>
               <bucket>&quot;1&quot;</bucket>
@@ -944,6 +1182,9 @@
                 </columns>
               </relation>
             </properties>
+            <properties context='extract'>
+              <relation name='cursadas.csv_D889B0B03C0D4486BE99B12394E7837B' table='[Extract].[cursadas.csv_D889B0B03C0D4486BE99B12394E7837B]' type='table' />
+            </properties>
           </object>
           <object caption='finales.csv' id='finales.csv_455BDAB6787246CF9DBE166AD70E6A72'>
             <properties context=''>
@@ -956,6 +1197,9 @@
                 </columns>
               </relation>
             </properties>
+            <properties context='extract'>
+              <relation name='finales.csv_455BDAB6787246CF9DBE166AD70E6A72' table='[Extract].[finales.csv_455BDAB6787246CF9DBE166AD70E6A72]' type='table' />
+            </properties>
           </object>
           <object caption='materias.csv' id='materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42'>
             <properties context=''>
@@ -966,6 +1210,9 @@
                   <column datatype='integer' name='créditos' ordinal='2' />
                 </columns>
               </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42' table='[Extract].[materias.csv_64EF9C130B1D4EDE85DD210F45C0AB42]' type='table' />
             </properties>
           </object>
         </objects>
@@ -1055,7 +1302,7 @@
           <style-rule element='axis'>
             <format attr='auto-subtitle' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota:qk]' scope='cols' value='true' />
             <format attr='subtitle' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota:qk]' scope='cols' value='' />
-            <encoding attr='space' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota:qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='10.0' max='10' min='0' minor-origin='0' minor-show='false' minor-spacing='1.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota:qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='10' max='10' min='0' minor-origin='0' minor-show='false' minor-spacing='1' range-type='fixed' scope='cols' type='space' />
             <format attr='display' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota:qk]' scope='cols' value='false' />
           </style-rule>
           <style-rule element='header'>
@@ -1166,7 +1413,7 @@
         <style>
           <style-rule element='axis'>
             <format attr='title' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota (finales.csv):qk]' scope='cols' value='Nota' />
-            <encoding attr='space' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota (finales.csv):qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='10.0' max='10' min='0' minor-origin='0' minor-show='false' minor-spacing='1.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota (finales.csv):qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='10' max='10' min='0' minor-origin='0' minor-show='false' minor-spacing='1' range-type='fixed' scope='cols' type='space' />
             <format attr='display' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota (finales.csv):qk]' scope='cols' value='false' />
           </style-rule>
           <style-rule element='header'>
@@ -1297,7 +1544,7 @@
         <style>
           <style-rule element='axis'>
             <format attr='title' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota (finales.csv):qk]' scope='cols' value='Nota' />
-            <encoding attr='space' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota (finales.csv):qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='10.0' max='10' min='0' minor-origin='0' minor-show='false' minor-spacing='1.0' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota (finales.csv):qk]' field-type='quantitative' major-origin='0' major-show='false' major-spacing='10' max='10' min='0' minor-origin='0' minor-show='false' minor-spacing='1' range-type='fixed' scope='cols' type='space' />
             <format attr='display' class='0' field='[federated.1snqal61t9waga16ii8xo1f571u4].[attr:nota (finales.csv):qk]' scope='cols' value='false' />
           </style-rule>
           <style-rule element='header'>
