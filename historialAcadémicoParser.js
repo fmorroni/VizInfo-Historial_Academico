@@ -33,9 +33,9 @@ function formatDate(date_ar) {
 
 function fechaCuatrimestre(año, cuatri) {
   if (cuatri === 1) {
-    return { inicio: año + "03-01", fin: año + "06-30" }
+    return { inicio: año + "-03-01", fin: año + "-06-30" }
   } else if (cuatri === 2) {
-    return { inicio: año + "08-01", fin: año + "11-30" }
+    return { inicio: año + "-08-01", fin: año + "-11-30" }
   }
 }
 

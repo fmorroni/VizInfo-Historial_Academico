@@ -2,8 +2,8 @@
   {
     "cuatrimestre": 1,
     "fecha": {
-      "inicio": "202303-01",
-      "fin": "202306-30"
+      "inicio": "2023-03-01",
+      "fin": "2023-06-30"
     },
     "materias": [
       {
@@ -55,8 +55,8 @@
   {
     "cuatrimestre": 2,
     "fecha": {
-      "inicio": "202208-01",
-      "fin": "202211-30"
+      "inicio": "2022-08-01",
+      "fin": "2022-11-30"
     },
     "materias": [
       {
@@ -115,8 +115,8 @@
   {
     "cuatrimestre": 1,
     "fecha": {
-      "inicio": "202203-01",
-      "fin": "202206-30"
+      "inicio": "2022-03-01",
+      "fin": "2022-06-30"
     },
     "materias": [
       {
@@ -197,8 +197,8 @@
   {
     "cuatrimestre": 1,
     "fecha": {
-      "inicio": "202103-01",
-      "fin": "202106-30"
+      "inicio": "2021-03-01",
+      "fin": "2021-06-30"
     },
     "materias": [
       {
@@ -262,8 +262,8 @@
   {
     "cuatrimestre": 2,
     "fecha": {
-      "inicio": "202008-01",
-      "fin": "202011-30"
+      "inicio": "2020-08-01",
+      "fin": "2020-11-30"
     },
     "materias": [
       {
@@ -365,8 +365,8 @@
   {
     "cuatrimestre": 1,
     "fecha": {
-      "inicio": "202003-01",
-      "fin": "202006-30"
+      "inicio": "2020-03-01",
+      "fin": "2020-06-30"
     },
     "materias": [
       {
@@ -499,8 +499,8 @@
   {
     "cuatrimestre": 2,
     "fecha": {
-      "inicio": "201908-01",
-      "fin": "201911-30"
+      "inicio": "2019-08-01",
+      "fin": "2019-11-30"
     },
     "materias": [
       {
@@ -598,8 +598,8 @@
   {
     "cuatrimestre": 1,
     "fecha": {
-      "inicio": "201903-01",
-      "fin": "201906-30"
+      "inicio": "2019-03-01",
+      "fin": "2019-06-30"
     },
     "materias": [
       {
@@ -709,8 +709,8 @@
   {
     "cuatrimestre": 2,
     "fecha": {
-      "inicio": "201808-01",
-      "fin": "201811-30"
+      "inicio": "2018-08-01",
+      "fin": "2018-11-30"
     },
     "materias": [
       {
@@ -803,8 +803,8 @@
   {
     "cuatrimestre": 1,
     "fecha": {
-      "inicio": "201803-01",
-      "fin": "201806-30"
+      "inicio": "2018-03-01",
+      "fin": "2018-06-30"
     },
     "materias": [
       {
